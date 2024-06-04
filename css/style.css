@@ -18,31 +18,26 @@
 .blue-button {
     background-color:#47ADF1;
     color:white;
-    font-weight:800;
 }
 
 .purple-button {
     background-color:#9C72E4;
     color:white;
-    font-weight:800;
 }
 
 .green-button {
     background-color:#64BFA8;
     color:white;
-    font-weight:800;
 }
 
 .light-green-button {
     background-color:#B0C926;
     color:white;
-    font-weight:800;
 }
 
 .yellow-button {
     background-color:#F29E33;
     color:white;
-    font-weight:800;
 }
 
 .transparent-button {
@@ -100,7 +95,7 @@ nav {
 
 .nav-button {
     display:inline-block;
-    padding:10px;
+    padding:10px 18px 10px 18px;
     height:42px;
     border-radius: 10px;
     text-align:center;
