@@ -72,6 +72,10 @@ main .main-container{
 
     /* Task Container */
 
+    .task-container .arrow{
+        font-size:0.7em;
+    }
+
     .task-container{
         padding:30px 50px 10px;
     }
@@ -84,7 +88,7 @@ main .main-container{
         padding:15px;
     }
 
-    .task-title > .icon {
+    .task-title .icon {
         display:inline-block;
         width:25px;
         height:25px;
