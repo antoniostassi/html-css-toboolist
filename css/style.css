@@ -73,6 +73,7 @@ header img, header h1{
 }
 
 header h1{
+    margin-bottom:7px;
     display:inline-block;
     font-size:3.0em;
 }
@@ -100,11 +101,11 @@ nav {
 
 .nav-button {
     display:inline-block;
-    width:100px;
+    padding:10px;
     height:42px;
     border-radius: 10px;
     text-align:center;
-    padding-top:12px;
+    vertical-align:middle;
 }
 
 /* Tasks Containers */
