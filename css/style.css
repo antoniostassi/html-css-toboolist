@@ -10,6 +10,7 @@
 .blue-button {
     background-color:#47ADF1;
     color:white;
+    font-weight:800;
 }
 
 .transparent-button {
@@ -18,17 +19,25 @@
     color:#CACFD4;
 }
 
+.checkmark{
+    color:#65C1AA;
+    border:2px solid #65C1AA;
+    font-weight:800;
+}
+
 /* Header */
 header{
     padding:10px;
 }
 
-header img{
+header img, header h1{
+    vertical-align: middle;
+
 }
 
 header h1{
     display:inline-block;
-    vertical-align: center;
+    font-size:3.0em;
 }
 
 /* Main / Containers */
@@ -38,25 +47,66 @@ main .main-container{
     padding:50px;
 }
 
-nav, .task-container{
-    margin:auto;
-    width:70%;
-    background-color: white;
-    margin-bottom:3px;
-    padding:20px 50px 10px;
-}
+    /* Nav */
+    nav, .task-container{
+        margin:auto;
+        width:70%;
+        background-color: white;
+        margin-bottom:3px;
+    }
 
-nav {
-    border-top-left-radius:10px;
-    border-top-right-radius:10px;
-}
+    nav {
+        padding:20px 50px 10px;
+        border-top-left-radius:10px;
+        border-top-right-radius:10px;
+    }
 
-.nav-button {
-    display:inline-block;
-    width:100px;
-    height:42px;
-    border-radius: 10px;
-    text-align:center;
-    padding-top:12px;
-}
+    .nav-button {
+        display:inline-block;
+        width:100px;
+        height:42px;
+        border-radius: 10px;
+        text-align:center;
+        padding-top:12px;
+    }
+
+    /* Task Container */
+
+    .task-container{
+        padding:30px 50px 10px;
+    }
+
+    .task-container section {
+        margin-bottom:10px;
+    }
+
+    .task-title {
+        padding:15px;
+    }
+
+    .task-title > .icon {
+        display:inline-block;
+        width:25px;
+        height:25px;
+        border-radius:50%;
+        text-align:center;
+        margin-right:5px;
+
+    }
+
+    .task-title .object{
+        font-size:1.3em;
+    }
+
+    .task-title .task-button {
+        display:inline-block;
+        width:90px;
+        height:35px;
+        border-radius:15px;
+        text-align:center;
+        line-height:35px;
+        margin-left:10px;
+    }
+
+
 
