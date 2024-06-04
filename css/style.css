@@ -1,0 +1,35 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+header{
+    padding:10px;
+}
+
+header img{
+}
+
+header h1{
+    display:inline-block;
+    vertical-align: center;
+}
+
+main .main-container{
+    background-color: #F6F8F9;
+    width:100%;
+}
+
+nav{
+
+    margin:auto;
+    width:70%;
+    background-color: white;
+}
+
+.nav-button {
+    width:100px;
+    height:20px;
+    background-color:aqua;
+}
