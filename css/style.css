@@ -7,6 +7,11 @@
 }
 
 /* Global Settings */
+
+.no-button {
+    display:inline-block;
+    margin-bottom:13px;
+}
 .blue-button {
     background-color:#47ADF1;
     color:white;
@@ -21,6 +26,12 @@
 
 .green-button {
     background-color:#64BFA8;
+    color:white;
+    font-weight:800;
+}
+
+.light-green-button {
+    background-color:#B0C926;
     color:white;
     font-weight:800;
 }
