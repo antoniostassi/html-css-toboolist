@@ -4,6 +4,9 @@
     box-sizing:border-box;
     margin:0;
     padding:0;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 /* Global Settings */
@@ -12,6 +15,7 @@
     display:inline-block;
     margin-bottom:13px;
 }
+
 .blue-button {
     background-color:#47ADF1;
     color:white;
@@ -43,7 +47,6 @@
 }
 
 .transparent-button {
-    width:110px;
     border:1px solid #CACFD4;
     color:#CACFD4;
 }
@@ -67,7 +70,6 @@ header{
 
 header img, header h1{
     vertical-align: middle;
-
 }
 
 header h1{
@@ -82,67 +84,69 @@ main .main-container{
     padding:50px;
 }
 
-    /* Nav */
-    nav, .task-container{
-        margin:auto;
-        width:70%;
-        background-color: white;
-        margin-bottom:3px;
-    }
+/* Nav */
+nav, .task-container{
+    margin:auto;
+    width:70%;
+    background-color: white;
+    margin-bottom:3px;
+}
 
-    nav {
-        padding:20px 50px 10px;
-        border-top-left-radius:10px;
-        border-top-right-radius:10px;
-    }
+nav {
+    padding:20px 50px 10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
 
-    .nav-button {
-        display:inline-block;
-        width:100px;
-        height:42px;
-        border-radius: 10px;
-        text-align:center;
-        padding-top:12px;
-    }
+.nav-button {
+    display:inline-block;
+    width:100px;
+    height:42px;
+    border-radius: 10px;
+    text-align:center;
+    padding-top:12px;
+}
 
-    /* Task Container */
+/* Tasks Containers */
 
-    .task-container .arrow{
-        font-size:0.7em;
-    }
+.task-container .arrow{
+    font-size:0.7em;
+}
 
-    .task-container{
-        padding:30px 50px 10px;
-    }
+.task-container{
+    padding:30px 50px 10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
 
-    .task-title {
-        padding:15px;
-    }
+.task-title {
+    padding:15px;
+}
 
-    .task-title div {
-        margin-bottom:10px;
-    }
+.task-title div {
+    margin-bottom:10px;
+}
 
-    .task-title .icon {
-        display:inline-block;
-        width:25px;
-        height:25px;
-        border-radius:50%;
-        text-align:center;
-        margin-right:5px;
+.task-title .icon {
+    display:inline-block;
+    width:25px;
+    height:25px;
+    border-radius:50%;
+    text-align:center;
+    margin-right:5px;
 
-    }
+}
 
-    .task-title .object{
-        font-size:1.3em;
-    }
+.task-title .object{
+    font-size:1.3em;
+}
 
-    .task-title .task-button {
-        display:inline-block;
-        border-radius:15px;
-        margin-left:5px;
-        padding:9px 15px 9px 15px;
-    }
+.task-title .task-button {
+    display:inline-block;
+    border-radius:15px;
+    margin-left:5px;
+    padding:9px 15px 9px 15px;
+}
 
 
 
