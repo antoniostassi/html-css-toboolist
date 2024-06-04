@@ -13,6 +13,12 @@
     font-weight:800;
 }
 
+.purple-button {
+    background-color:#9C72E4;
+    color:white;
+    font-weight:800;
+}
+
 .transparent-button {
     width:110px;
     border:1px solid #CACFD4;
@@ -80,12 +86,12 @@ main .main-container{
         padding:30px 50px 10px;
     }
 
-    .task-container section {
-        margin-bottom:10px;
-    }
-
     .task-title {
         padding:15px;
+    }
+
+    .task-title div {
+        margin-bottom:10px;
     }
 
     .task-title .icon {
@@ -104,12 +110,9 @@ main .main-container{
 
     .task-title .task-button {
         display:inline-block;
-        width:90px;
-        height:35px;
         border-radius:15px;
-        text-align:center;
-        line-height:35px;
-        margin-left:10px;
+        margin-left:5px;
+        padding:9px 15px 9px 15px;
     }
 
 
