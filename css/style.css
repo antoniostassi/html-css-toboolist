@@ -19,6 +19,18 @@
     font-weight:800;
 }
 
+.green-button {
+    background-color:#64BFA8;
+    color:white;
+    font-weight:800;
+}
+
+.yellow-button {
+    background-color:#F29E33;
+    color:white;
+    font-weight:800;
+}
+
 .transparent-button {
     width:110px;
     border:1px solid #CACFD4;
@@ -28,6 +40,12 @@
 .checkmark{
     color:#65C1AA;
     border:2px solid #65C1AA;
+    font-weight:800;
+}
+
+.crossmark{
+    color:#DC716E;
+    border:2px solid #DC716E;
     font-weight:800;
 }
 
