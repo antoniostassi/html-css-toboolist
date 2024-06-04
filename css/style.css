@@ -1,9 +1,24 @@
+
+/* Reset to Zero */
 *{
     box-sizing:border-box;
     margin:0;
     padding:0;
 }
 
+/* Global Settings */
+.blue-button {
+    background-color:#47ADF1;
+    color:white;
+}
+
+.transparent-button {
+    width:110px;
+    border:1px solid #CACFD4;
+    color:#CACFD4;
+}
+
+/* Header */
 header{
     padding:10px;
 }
@@ -16,20 +31,32 @@ header h1{
     vertical-align: center;
 }
 
+/* Main / Containers */
 main .main-container{
     background-color: #F6F8F9;
     width:100%;
+    padding:50px;
 }
 
-nav{
-
+nav, .task-container{
     margin:auto;
     width:70%;
     background-color: white;
+    margin-bottom:3px;
+    padding:20px 50px 10px;
+}
+
+nav {
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
 }
 
 .nav-button {
+    display:inline-block;
     width:100px;
-    height:20px;
-    background-color:aqua;
+    height:42px;
+    border-radius: 10px;
+    text-align:center;
+    padding-top:12px;
 }
+
