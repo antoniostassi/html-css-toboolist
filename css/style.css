@@ -13,6 +13,7 @@
 
 .blue-button {
     background-color:#47ADF1;
+    border:1px solid #47ADF1;
     color:white;
 }
 
@@ -91,8 +92,7 @@ nav {
 
 .nav-button {
     display:inline-block;
-    padding:10px 18px 10px 18px;
-    height:42px;
+    padding:7px 11px 7px 11px;
     border-radius: 10px;
     text-align:center;
     vertical-align:middle;
